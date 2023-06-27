@@ -8,7 +8,7 @@ using System.Reflection;
 
 namespace Elearninig.Base.Application
 {
-    public static class ServiceCollectionExtension
+    public static class ConfigureServices
     {
         public static IServiceCollection AddBaseApplication(this IServiceCollection services)
         {

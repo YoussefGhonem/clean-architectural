@@ -2,8 +2,8 @@
 {
     public class BadRequestException : Exception
     {
-        public BadRequestException() :base() { }
-        public BadRequestException(string msg) :base(msg) { }
+        public BadRequestException() : base() { }
+        public BadRequestException(string msg) : base(msg) { }
 
         public BadRequestException(string message, Exception innerException)
             : base(message, innerException)

@@ -3,7 +3,6 @@ using Elearninig.Base.Application.common.RedisCache.models;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
-using ServiceStack.Redis;
 using StackExchange.Redis;
 
 namespace Elearninig.Base.Application.common.RedisCache.Services;
