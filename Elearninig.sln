@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Base.Helpe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elearninig.Packages.Excel", "src\Elearninig.Packages.Excel\Elearninig.Packages.Excel.csproj", "{733B4288-881F-4522-826A-5B3DA082DF7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elearninig.Packages.Hangfire", "src\Elearninig.Packages.Hangfire\Elearninig.Packages.Hangfire.csproj", "{6C0E4A0B-5C14-4D68-93F0-A230B295AF74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{733B4288-881F-4522-826A-5B3DA082DF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{733B4288-881F-4522-826A-5B3DA082DF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{733B4288-881F-4522-826A-5B3DA082DF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0E4A0B-5C14-4D68-93F0-A230B295AF74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0E4A0B-5C14-4D68-93F0-A230B295AF74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0E4A0B-5C14-4D68-93F0-A230B295AF74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0E4A0B-5C14-4D68-93F0-A230B295AF74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +81,7 @@ Global
 		{03514C50-2E81-4F9B-A3F7-05EBCC1B308B} = {31D37CA2-F0FA-4369-9BC2-CD931AC86B17}
 		{7BEA4304-DA27-48DD-90F8-AC34C348FB5F} = {92F050B4-2592-4344-BA9F-25A183F86485}
 		{733B4288-881F-4522-826A-5B3DA082DF7A} = {8475A9E0-95C8-4EF7-836C-53FC41433A5B}
+		{6C0E4A0B-5C14-4D68-93F0-A230B295AF74} = {8475A9E0-95C8-4EF7-836C-53FC41433A5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A73432C9-849E-43C4-A8A1-DC37F54EEE24}
