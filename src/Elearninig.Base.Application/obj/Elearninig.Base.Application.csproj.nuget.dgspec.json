@@ -87,6 +87,10 @@
             "ServiceStack.Redis": {
               "target": "Package",
               "version": "[6.8.0, )"
+            },
+            "libphonenumber-csharp": {
+              "target": "Package",
+              "version": "[8.13.14, )"
             }
           },
           "imports": [

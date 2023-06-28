@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace Elearninig.Base.Application.Extensions;
+namespace Elearninig.Base.Application.common.Pagination;
 
 public static class PaginationExtension
 {
