@@ -1,4 +1,5 @@
 using Elearninig.Packages.Email.Base.Interfaces;
+using Elearninig.Packages.Email.SendGrid.Configuration;
 using Elearninig.Packages.Email.SendGrid.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace Elearninig.Base.Application.FluentValidation.Extensions
+namespace TicketManagement.Base.Helpers.Extensions
 {
     public static class FileExtensions
     {

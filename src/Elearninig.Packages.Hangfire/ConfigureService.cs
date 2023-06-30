@@ -1,5 +1,5 @@
 ﻿using Elearninig.Packages.Hangfire.Configuration;
-using Elearninig.Packages.Hangfire.Services.RecurringJob;
+using Elearninig.Packages.Hangfire.Helpers;
 using Hangfire;
 using Hangfire.SqlServer;
 using Microsoft.AspNetCore.Builder;
@@ -14,7 +14,6 @@ namespace Elearninig.Packages.Hangfire
         {
             var hangfireConfig = configuration.GetHangfireConfig();
 
-            services.AddScoped<IRecurringJobService, RecurringJobService>();
             services.AddHangfire(x => x.UseSqlServerStorage(hangfireConfig.ConnectionString));
             services.AddHangfire((config) =>
             {

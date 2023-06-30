@@ -35,6 +35,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elearninig.Packages.Email.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elearninig.Packages.Email.SendGrid", "src\Elearninig.Packages.Email.SendGrid\Elearninig.Packages.Email.SendGrid.csproj", "{D37DBACC-ED8A-4771-9A8A-AAC9DF72D2CD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elearninig.Packages.Storage", "Elearninig.Packages.Storage", "{4C6BEAB9-41D2-4F10-8A01-70450296D01E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elearninig.Packages.Storage.AzureBlob", "src\Elearninig.Packages.Storage.AzureBlob\Elearninig.Packages.Storage.AzureBlob.csproj", "{BDFBFABD-7D4D-450E-A772-49EC45A691ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elearninig.Packages.MessageQueuing", "Elearninig.Packages.MessageQueuing", "{273D7925-3AAA-4EF9-96D2-8B2783893C7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elearninig.Packages.MessageQueuing.RabbitMQ", "src\Elearninig.Packages.MessageQueuing.RabbitMQ\Elearninig.Packages.MessageQueuing.RabbitMQ.csproj", "{F1FDA950-2BA8-4146-843F-3295A0F33C57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +97,14 @@ Global
 		{D37DBACC-ED8A-4771-9A8A-AAC9DF72D2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D37DBACC-ED8A-4771-9A8A-AAC9DF72D2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D37DBACC-ED8A-4771-9A8A-AAC9DF72D2CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDFBFABD-7D4D-450E-A772-49EC45A691ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFBFABD-7D4D-450E-A772-49EC45A691ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFBFABD-7D4D-450E-A772-49EC45A691ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFBFABD-7D4D-450E-A772-49EC45A691ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1FDA950-2BA8-4146-843F-3295A0F33C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FDA950-2BA8-4146-843F-3295A0F33C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FDA950-2BA8-4146-843F-3295A0F33C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FDA950-2BA8-4146-843F-3295A0F33C57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +122,10 @@ Global
 		{C0C7C753-EDF6-4600-9BAC-10A238D138F7} = {F84A63AC-8EEF-4AB1-9C64-20DDE47E15F4}
 		{8373921D-F219-4F59-A5DE-DAEB7C8CB3BE} = {F84A63AC-8EEF-4AB1-9C64-20DDE47E15F4}
 		{D37DBACC-ED8A-4771-9A8A-AAC9DF72D2CD} = {F84A63AC-8EEF-4AB1-9C64-20DDE47E15F4}
+		{4C6BEAB9-41D2-4F10-8A01-70450296D01E} = {8475A9E0-95C8-4EF7-836C-53FC41433A5B}
+		{BDFBFABD-7D4D-450E-A772-49EC45A691ED} = {4C6BEAB9-41D2-4F10-8A01-70450296D01E}
+		{273D7925-3AAA-4EF9-96D2-8B2783893C7B} = {8475A9E0-95C8-4EF7-836C-53FC41433A5B}
+		{F1FDA950-2BA8-4146-843F-3295A0F33C57} = {273D7925-3AAA-4EF9-96D2-8B2783893C7B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A73432C9-849E-43C4-A8A1-DC37F54EEE24}
